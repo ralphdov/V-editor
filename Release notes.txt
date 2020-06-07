@@ -1,0 +1,68 @@
+VEditor Release notes
+---------------------
+
+V 0.51
+------
+Fixed : Filter *.syx in open/save dialog boxes
+Fixed : .cfg file written in the wrong directory
+Fixed : Save issue with new library
+Added : In zoomed windows, the title indicate now that the library is modified or not
+Modified : When selecting a patch in a zoomed window, the library and the patch become the current library and current patch
+	   by this way, there is no confusion with the save option (which library is beeing saved)
+Fixed : change in zoomed window are now correctely reflected in the library tree (same for change in library tree)
+Added : Library name can be modified by editing their name in the library tree or with the library properties dialog box
+
+V 0.5
+-----
+Added : Copy / Paste (using Drag and Drop, menu or keyboard)
+Added : Zoom window can be opened by draging the library
+Added : Library Close option in contextual menu
+Added : Rename option in contextual menu
+Added : "Save as" option
+Added : Tooltips in toolbar
+Added : Preset management for midi pedal/assign
+Added : Patch name is now editable in zoom window
+Added : It is now possible to use the Wheel mouse to change a control value
+Added : In the open dialog box, it is now possible to open several files at one time
+Fixed : Check box in window menu are now correct after using zoom function
+Fixed : in Assign, max value was always -24 for pd shift pitch
+Fixed : in pd shift effect, Poly and Mono value were inversed
+Fixed : when opening manually a syx file from a folder other than VEditor/patch, presets diseapear
+
+
+V 0.42
+-------
+Fixed : Input and ouput midi devices are now correct in Setting Dialog box
+Fixed : Amp list is now correct (panel COSM Amp)
+Fixed : Labelling error, BMP instead of BPM
+
+
+V 0.41
+------
+Added : Compare feature
+Added : Drag and drop in chain panel
+
+
+V 0.4
+-----
+Added : VG-88 V2 adaptation
+Added : Full midi implementation (send / receive / Real time editing)
+Added : Preset management
+Added : Save option
+Added : System parameters (read only)
+Fixed : Rename popup works now on Window NT
+
+
+V 0.3
+-----
+Intermediate version. Never released
+
+
+V 0.2
+-----
+Added : First step in midi implementation: Program change management
+
+
+V 0.1
+-----
+First version of VEditor

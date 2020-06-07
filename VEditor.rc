@@ -1,0 +1,1389 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR              CURSOR  DISCARDABLE     "res\\cursor.cur"
+IDC_CURSORMS            CURSOR  DISCARDABLE     "res\\cursorms.cur"
+IDC_CURSORMP            CURSOR  DISCARDABLE     "res\\cursormp.cur"
+IDC_CURSORMPS           CURSOR  DISCARDABLE     "res\\cursormps.cur"
+IDC_CURSORM             CURSOR  DISCARDABLE     "res\\cursorm.cur"
+IDC_CURSORF             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSORG             CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_CURSORGP            CURSOR  DISCARDABLE     "res\\cursorg1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "VEditor"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "VEditor"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAJ"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DEF"
+    ID_INDICATOR_OVR        "ECR"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations sur le programme, le numéro de version et le copyright\nAbout"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nClose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passe au volet de fenêtre suivant\nVolet suivant"
+    ID_PREV_PANE            "Revient au volet précédent\nVolet précédent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Réorganise les fenêtres en une mosaïque\nMosaïque"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            "Copie la sélection et la place dans le Presse-papiers\nCopy"
+    ID_EDIT_CUT             "Supprime la sélection et la place dans le Presse-papiers\nCut"
+    ID_EDIT_FIND            "Recherche le texte spécifié\nFind"
+    ID_EDIT_PASTE           "Insère le contenu du Presse-papiers\nPast"
+    ID_EDIT_REPEAT          "Répète la dernière action\nRépéter"
+    ID_EDIT_REPLACE         "Remplace le texte spécifique par un texte différent\nReplace"
+    ID_EDIT_SELECT_ALL      "Sélectionne le document entier\nSélectionner tout"
+    ID_EDIT_UNDO            "Annule la dernière action\nUndo"
+    ID_EDIT_REDO            "Rétablit l'action précédemment annulée\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Change la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Réduit la fenêtre en icône"
+    AFX_IDS_SCMAXIMIZE      "Agrandit la fenêtre au format de l'écran"
+    AFX_IDS_SCNEXTWINDOW    "Passe à la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Passe à la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et propose l'enregistrement des documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille d'origine"
+    AFX_IDS_SCTASKLIST      "Active la liste des tâches"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPEN                 "\nOpen"
+    ID_SEND                 "\nSend"
+    ID_RECEIVE              "\nReceive"
+    ID_NEW                  "\nNew library"
+    ID_OPENVGWINDOW         "\nOpen zoom window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SYNCHRONIZE          "\nSynchronize"
+    ID_SAVE                 "\nSave current library"
+    ID_SAVE_ALL             "\nSave all libraries"
+    ID_EDIT_DELETE          "\nDelete"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LIBTREE              "\nHide/Show libraries Tree"
+    ID_CHAIN                "\nHide/Show Chain panel"
+    ID_PATCHEDIT            "\nHide/Show Edit panels"
+    ID_TILEH                "\nTile zoomed windows horizontally"
+    ID_TILEV                "\nTile zoomed windows vertically"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\VEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\VEditor.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\guitar.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_PFILETOP            BITMAP  DISCARDABLE     "res\\pFileTop.bmp"
+IDB_PFILELEFT           BITMAP  DISCARDABLE     "res\\pFileLeft.bmp"
+IDB_PFILERIGHT          BITMAP  DISCARDABLE     "res\\pFileRight.bmp"
+IDB_PFILEBOT            BITMAP  DISCARDABLE     "res\\pFileBot.bmp"
+IDB_VG88FONT            BITMAP  DISCARDABLE     "res\\vg-8Font.bmp"
+IDB_CHAIN               BITMAP  DISCARDABLE     "res\\chain.bmp"
+IDB_DIGIT               BITMAP  DISCARDABLE     "res\\digitled.bmp"
+IDB_VIOLIN              BITMAP  DISCARDABLE     "res\\violin.bmp"
+IDB_CRYSTAL             BITMAP  DISCARDABLE     "res\\crystal.bmp"
+IDB_FLUTE               BITMAP  DISCARDABLE     "res\\flute.bmp"
+IDB_GK2A                BITMAP  DISCARDABLE     "res\\gk2a.bmp"
+IDB_NYLON               BITMAP  DISCARDABLE     "res\\nylon.bmp"
+IDB_ORGAN               BITMAP  DISCARDABLE     "res\\organ.bmp"
+IDB_TRUMPET             BITMAP  DISCARDABLE     "res\\trumpet.bmp"
+IDB_ACOUSG              BITMAP  DISCARDABLE     "res\\acousg.bmp"
+IDB_VLIB                BITMAP  DISCARDABLE     "res\\VLib.bmp"
+IDB_VEDITOR             BITMAP  DISCARDABLE     "res\\VEditor.bmp"
+IDB_GUITAR              BITMAP  DISCARDABLE     "res\\guitar.bmp"
+IDB_ACOUSMIC            BITMAP  DISCARDABLE     "res\\Acous-mic.bmp"
+IDB_ACOUSPIEZO          BITMAP  DISCARDABLE     "res\\Acous-Piezo.bmp"
+IDB_BOWED               BITMAP  DISCARDABLE     "res\\bowed.bmp"
+IDB_CHET                BITMAP  DISCARDABLE     "res\\Chet.bmp"
+IDB_CLAST               BITMAP  DISCARDABLE     "res\\CLA-ST.bmp"
+IDB_LIPS                BITMAP  DISCARDABLE     "res\\Lips.bmp"
+IDB_LP                  BITMAP  DISCARDABLE     "res\\LP.bmp"
+IDB_MODST               BITMAP  DISCARDABLE     "res\\MOD-ST.bmp"
+IDB_NYLONB              BITMAP  DISCARDABLE     "res\\nylonB.bmp"
+IDB_ORGANB              BITMAP  DISCARDABLE     "res\\organB.bmp"
+IDB_P90                 BITMAP  DISCARDABLE     "res\\P-90.bmp"
+IDB_PAF                 BITMAP  DISCARDABLE     "res\\PAF.bmp"
+IDB_PIPE                BITMAP  DISCARDABLE     "res\\pipe.bmp"
+IDB_RICK                BITMAP  DISCARDABLE     "res\\Rick.bmp"
+IDB_SOLO                BITMAP  DISCARDABLE     "res\\solo.bmp"
+IDB_SSH                 BITMAP  DISCARDABLE     "res\\S-S-H.bmp"
+IDB_TELECASTER          BITMAP  DISCARDABLE     "res\\TEL.bmp"
+IDB_VARIGUITAR          BITMAP  DISCARDABLE     "res\\Vari.bmp"
+IDB_AMPACOUS            BITMAP  DISCARDABLE     "res\\ac guitar.bmp"
+IDB_AMPBG               BITMAP  DISCARDABLE     "res\\BG lead.bmp"
+IDB_AMPBLUES            BITMAP  DISCARDABLE     "res\\Blues.bmp"
+IDB_AMPCLTWIN           BITMAP  DISCARDABLE     "res\\Clean twin.bmp"
+IDB_AMPCRUNCH           BITMAP  DISCARDABLE     "res\\Crunch.bmp"
+IDB_AMPJC120            BITMAP  DISCARDABLE     "res\\JC-120.bmp"
+IDB_AMPMATCH            BITMAP  DISCARDABLE     "res\\match drive.bmp"
+IDB_AMP5150             BITMAP  DISCARDABLE     "res\\Metal 5150.bmp"
+IDB_AMPMETAL            BITMAP  DISCARDABLE     "res\\Metal drive.bmp"
+IDB_AMP1959I_II         BITMAP  DISCARDABLE     "res\\MS 1959 I + II.bmp"
+IDB_AMP1959I            BITMAP  DISCARDABLE     "res\\MS 1959 I.bmp"
+IDB_AMP1959II           BITMAP  DISCARDABLE     "res\\MS 1959 II.bmp"
+IDB_AMPSLDN             BITMAP  DISCARDABLE     "res\\Sldn lead.bmp"
+IDB_AMPVOX              BITMAP  DISCARDABLE     "res\\vo drive.bmp"
+IDB_EFF2x2CHORUS        BITMAP  DISCARDABLE     "res\\2x2 Chorus.bmp"
+IDB_EFFAUTOWAH          BITMAP  DISCARDABLE     "res\\Auto wah.bmp"
+IDB_EFFCHORUS           BITMAP  DISCARDABLE     "res\\Chorus.bmp"
+IDB_EFFCOMPRESSOR       BITMAP  DISCARDABLE     "res\\Compressor.bmp"
+IDB_LBVGWin1            BITMAP  DISCARDABLE     "res\\LBVGWin1.bmp"
+IDB_LTVGWin1            BITMAP  DISCARDABLE     "res\\LTVGWin1.bmp"
+IDB_LVGWin1             BITMAP  DISCARDABLE     "res\\LVGWin1.bmp"
+IDB_MBVGWin1            BITMAP  DISCARDABLE     "res\\MBVGWin1.bmp"
+IDB_MTVGWin1            BITMAP  DISCARDABLE     "res\\MTVGWin1.bmp"
+IDB_RBVGWin1            BITMAP  DISCARDABLE     "res\\RBVGWin1.bmp"
+IDB_RVGWin1             BITMAP  DISCARDABLE     "res\\RVGWin1.bmp"
+IDB_RTVGWin1            BITMAP  DISCARDABLE     "res\\RTVGWin1.bmp"
+IDB_PICKUP              BITMAP  DISCARDABLE     "res\\pickup.bmp"
+IDB_CABLE               BITMAP  DISCARDABLE     "res\\Cable1.bmp"
+IDB_CABLE2              BITMAP  DISCARDABLE     "res\\Cable2.bmp"
+IDB_CABLECORNER         BITMAP  DISCARDABLE     "res\\cablecorner.bmp"
+IDB_CABLEINTER          BITMAP  DISCARDABLE     "res\\Cableinter.bmp"
+IDB_EFFDELAY            BITMAP  DISCARDABLE     "res\\Delay.bmp"
+IDB_DETUNE              BITMAP  DISCARDABLE     "res\\detune.bmp"
+IDB_DISTCLAOD           BITMAP  DISCARDABLE     "res\\Dist Cla od.bmp"
+IDB_DISTDS1             BITMAP  DISCARDABLE     "res\\Dist DS1.bmp"
+IDB_DISTDS2             BITMAP  DISCARDABLE     "res\\Dist DS2.bmp"
+IDB_DISTFUZZ            BITMAP  DISCARDABLE     "res\\Dist Fuzz.bmp"
+IDB_DISTTURBOOD         BITMAP  DISCARDABLE     "res\\Dist turbo od.bmp"
+IDB_EFFEQ               BITMAP  DISCARDABLE     "res\\Equalizer.bmp"
+IDB_EFFFLANGER          BITMAP  DISCARDABLE     "res\\Flanger.bmp"
+IDB_EFFFV               BITMAP  DISCARDABLE     "res\\Foot volume.bmp"
+IDB_EFFHARMONIST        BITMAP  DISCARDABLE     "res\\Harmonist.bmp"
+IDB_EFFLIMITER          BITMAP  DISCARDABLE     "res\\Limiter.bmp"
+IDB_EFFNS               BITMAP  DISCARDABLE     "res\\Nois supressor.bmp"
+IDB_EFFPSHIFTER         BITMAP  DISCARDABLE     "res\\P shifter.bmp"
+IDB_EFFPAN              BITMAP  DISCARDABLE     "res\\Pan.bmp"
+IDB_EFFPDSHIFT          BITMAP  DISCARDABLE     "res\\PD shift.bmp"
+IDB_EFFPHASER           BITMAP  DISCARDABLE     "res\\phaser.bmp"
+IDB_POLYOCTAVE          BITMAP  DISCARDABLE     "res\\poly octave.bmp"
+IDB_SLOWGEAR            BITMAP  DISCARDABLE     "res\\poly slowgear.bmp"
+IDB_EFFREVERB           BITMAP  DISCARDABLE     "res\\reverb.bmp"
+IDB_EFFSEQ              BITMAP  DISCARDABLE     "res\\S Equalizer.bmp"
+IDB_EFFTREMOLO          BITMAP  DISCARDABLE     "res\\Tremolo.bmp"
+IDB_TUNE                BITMAP  DISCARDABLE     "res\\tune.bmp"
+IDB_EFFWAH              BITMAP  DISCARDABLE     "res\\Wah.bmp"
+IDB_CRYSTALB            BITMAP  DISCARDABLE     "res\\crystalB.bmp"
+IDB_EFFVIBRATO          BITMAP  DISCARDABLE     "res\\Vibrato.bmp"
+IDB_KNOB1               BITMAP  DISCARDABLE     "res\\knob1.bmp"
+IDB_KNOB2               BITMAP  DISCARDABLE     "res\\knob2.bmp"
+IDB_SWITCH1             BITMAP  DISCARDABLE     "res\\switch1.bmp"
+IDB_FADERV1             BITMAP  DISCARDABLE     "res\\faderV1.bmp"
+IDB_FADERH1             BITMAP  DISCARDABLE     "res\\faderH1.bmp"
+IDB_BUTTON1             BITMAP  DISCARDABLE     "res\\button1.bmp"
+IDB_LED1                BITMAP  DISCARDABLE     "res\\led1.bmp"
+IDB_ABOUT               BITMAP  DISCARDABLE     "res\\about.bmp"
+IDB_KNOB3               BITMAP  DISCARDABLE     "res\\knob3.bmp"
+IDB_KNOB4               BITMAP  DISCARDABLE     "res\\knob4.bmp"
+IDB_WAH2                BITMAP  DISCARDABLE     "res\\wah2.bmp"
+IDB_AMPLIFERS           BITMAP  DISCARDABLE     "res\\amplifers.bmp"
+IDB_KEY                 BITMAP  DISCARDABLE     "res\\key.bmp"
+IDB_KNOB6               BITMAP  DISCARDABLE     "res\\knob6.bmp"
+IDB_KNOB7               BITMAP  DISCARDABLE     "res\\knob7.bmp"
+IDB_SELECTOR            BITMAP  DISCARDABLE     "res\\selector.bmp"
+IDB_GUITARS             BITMAP  DISCARDABLE     "res\\guitars.bmp"
+IDB_BODYTYPE            BITMAP  DISCARDABLE     "res\\bodytype.bmp"
+IDB_GUITARSACOUS        BITMAP  DISCARDABLE     "res\\guitarsAcous.bmp"
+IDB_PICKUPTYPE1         BITMAP  DISCARDABLE     "res\\pickupType1.bmp"
+IDB_PICKUPTYPE2         BITMAP  DISCARDABLE     "res\\pickupType2.bmp"
+IDB_PICKUPPOS           BITMAP  DISCARDABLE     "res\\pickupPos.bmp"
+IDB_PICKUPSINGLE1       BITMAP  DISCARDABLE     "res\\pickupSingle1.bmp"
+IDB_PICKUPSINGLE2       BITMAP  DISCARDABLE     "res\\pickupSingle2.bmp"
+IDB_PICKUPDOUBLE1       BITMAP  DISCARDABLE     "res\\pickupDouble1.bmp"
+IDB_PICKUPDOUBLE2       BITMAP  DISCARDABLE     "res\\pickupDouble2.bmp"
+IDB_PANELBOTTOM         BITMAP  DISCARDABLE     "res\\PanelBottom.bmp"
+IDB_PANELEMPTY          BITMAP  DISCARDABLE     "res\\panel2.bmp"
+IDB_SECTION             BITMAP  DISCARDABLE     "res\\section.bmp"
+IDB_SEFFAUTOWAH         BITMAP  DISCARDABLE     "res\\EffAutoWah.bmp"
+IDB_SEFFCHORUS          BITMAP  DISCARDABLE     "res\\EffChorus.bmp"
+IDB_SEFFCOMP            BITMAP  DISCARDABLE     "res\\EffComp.bmp"
+IDB_SEFFDELAY           BITMAP  DISCARDABLE     "res\\EffDelay.bmp"
+IDB_SEFFEQ              BITMAP  DISCARDABLE     "res\\EffEq.bmp"
+IDB_SEFFFLANGER         BITMAP  DISCARDABLE     "res\\EffFlanger.bmp"
+IDB_SEFFHARMO           BITMAP  DISCARDABLE     "res\\EffHarmo.bmp"
+IDB_SEFFPAN             BITMAP  DISCARDABLE     "res\\EffPan.bmp"
+IDB_SEFFPEDSHIFT        BITMAP  DISCARDABLE     "res\\effPedShift.bmp"
+IDB_SEFFPEDWAH          BITMAP  DISCARDABLE     "res\\effPedWah.bmp"
+IDB_SEFFPHASER          BITMAP  DISCARDABLE     "res\\EffPhaser.bmp"
+IDB_SEFFREVERB          BITMAP  DISCARDABLE     "res\\EffReverb.bmp"
+IDB_SEFFVIBRATO         BITMAP  DISCARDABLE     "res\\EffVibrato.bmp"
+IDB_SEFFNS              BITMAP  DISCARDABLE     "res\\EffNS.bmp"
+IDB_EQLABEL             BITMAP  DISCARDABLE     "res\\EqLabel.bmp"
+IDB_GUITARNYLON         BITMAP  DISCARDABLE     "res\\GuitarNylon.bmp"
+IDB_EMPTY               BITMAP  DISCARDABLE     "res\\empty.bmp"
+IDB_ASSIGNGKVOL         BITMAP  DISCARDABLE     "res\\assign gk vol.bmp"
+IDB_ASSIGNCTL           BITMAP  DISCARDABLE     "res\\AssignCtl.bmp"
+IDB_ASSIGNGKS1S2        BITMAP  DISCARDABLE     "res\\assignGkS1S2.bmp"
+IDB_ASSIGNMIDI          BITMAP  DISCARDABLE     "res\\assignMidi.bmp"
+IDB_ASSIGNPEDAL         BITMAP  DISCARDABLE     "res\\assignPedal.bmp"
+IDB_POPUP               BITMAP  DISCARDABLE     "res\\popup.bmp"
+IDB_SPEAKER             BITMAP  DISCARDABLE     "res\\speaker.bmp"
+IDB_MIC1                BITMAP  DISCARDABLE     "res\\mic1.bmp"
+IDB_MIC2                BITMAP  DISCARDABLE     "res\\mic2.bmp"
+IDB_ORGANSLIDER         BITMAP  DISCARDABLE     "res\\organSlider.bmp"
+IDB_ORGANS              BITMAP  DISCARDABLE     "res\\organS.bmp"
+IDB_EFFDIST             BITMAP  DISCARDABLE     "res\\EffDist.bmp"
+IDB_FLUTE2              BITMAP  DISCARDABLE     "res\\flute2.bmp"
+IDB_VIOLON2             BITMAP  DISCARDABLE     "res\\violin2.bmp"
+IDB_CRYSTAL2            BITMAP  DISCARDABLE     "res\\crystal2.bmp"
+IDB_TRUMPET2            BITMAP  DISCARDABLE     "res\\trumpet2.bmp"
+IDB_LABELPAN            BITMAP  DISCARDABLE     "res\\labelPan.bmp"
+IDB_VGFONTBW            BITMAP  DISCARDABLE     "res\\vg-8FontBW.bmp"
+IDB_BRASSB              BITMAP  DISCARDABLE     "res\\brassB.bmp"
+IDB_BRASS               BITMAP  DISCARDABLE     "res\\brass.bmp"
+IDB_DUALS               BITMAP  DISCARDABLE     "res\\dual.bmp"
+IDB_DUALB               BITMAP  DISCARDABLE     "res\\dualB.bmp"
+IDB_PPWM                BITMAP  DISCARDABLE     "res\\ppwm.bmp"
+IDB_PPWMB               BITMAP  DISCARDABLE     "res\\ppwmB.bmp"
+IDB_VGSEND              BITMAP  DISCARDABLE     "res\\VGSend.bmp"
+IDB_LCD                 BITMAP  DISCARDABLE     "res\\lcd.bmp"
+IDB_GKFUNC              BITMAP  DISCARDABLE     "res\\gkFunc.bmp"
+IDB_DIAL                BITMAP  DISCARDABLE     "res\\Dial.bmp"
+IDB_TUNER               BITMAP  DISCARDABLE     "res\\tuner.bmp"
+IDB_OUTPUTSELECT        BITMAP  DISCARDABLE     "res\\outputSelect.bmp"
+IDB_BUTTON2             BITMAP  DISCARDABLE     "res\\button2.bmp"
+IDB_GK2AB               BITMAP  DISCARDABLE     "res\\gk2aB.bmp"
+IDB_VLIB2               BITMAP  DISCARDABLE     "res\\VLib2.bmp"
+IDB_NYLONIIB            BITMAP  DISCARDABLE     "res\\nylonIIB.bmp"
+IDB_NYLONII             BITMAP  DISCARDABLE     "res\\NylonII.bmp"
+IDB_SITARB              BITMAP  DISCARDABLE     "res\\SitarB.bmp"
+IDB_SITAR               BITMAP  DISCARDABLE     "res\\sitar.bmp"
+IDB_AMPMSHIGHGAIN       BITMAP  DISCARDABLE     "res\\Ms High Gain.bmp"
+IDB_AMPR_FIERRED        BITMAP  DISCARDABLE     "res\\rectifier red.bmp"
+IDB_AMPR_FIERVINT       BITMAP  DISCARDABLE     "res\\rectifier.bmp"
+IDB_AMPR_FIERORANGE     BITMAP  DISCARDABLE     "res\\rectifier orange.bmp"
+IDB_AMPVOLEAD           BITMAP  DISCARDABLE     "res\\vo lead.bmp"
+IDB_AMPVOCLEAN          BITMAP  DISCARDABLE     "res\\vo clean.bmp"
+IDB_AMPMATCHLEAD        BITMAP  DISCARDABLE     "res\\match lead.bmp"
+IDB_AMPFATMATCH         BITMAP  DISCARDABLE     "res\\match fat.bmp"
+IDB_LED2                BITMAP  DISCARDABLE     "res\\led2.bmp"
+IDB_BUTTON3             BITMAP  DISCARDABLE     "res\\button3.bmp"
+IDB_GUITARNYLONII       BITMAP  DISCARDABLE     "res\\GuitarNylonII.bmp"
+IDB_AMPJAZZCOMBO        BITMAP  DISCARDABLE     "res\\Jazz combo.bmp"
+IDB_AMPLEADSTACK        BITMAP  DISCARDABLE     "res\\lead stack.bmp"
+IDB_AMPMETALLEAD        BITMAP  DISCARDABLE     "res\\metal lead.bmp"
+IDB_AMPMETALSTACK       BITMAP  DISCARDABLE     "res\\metal stack.bmp"
+IDB_AMPSTACKCRUNCH      BITMAP  DISCARDABLE     "res\\Stack crunch.bmp"
+IDB_AMPDRIVESTACK       BITMAP  DISCARDABLE     "res\\Drive stack.bmp"
+IDB_AMPPROCRUNCH        BITMAP  DISCARDABLE     "res\\Pro reverb.bmp"
+IDB_AMPTWEED            BITMAP  DISCARDABLE     "res\\tweed.bmp"
+IDB_AMPBGRYTHM          BITMAP  DISCARDABLE     "res\\BG rythm.bmp"
+IDB_AMPBGDRIVE          BITMAP  DISCARDABLE     "res\\BG drive.bmp"
+IDB_EFFUNIV             BITMAP  DISCARDABLE     "res\\Univibe.bmp"
+IDB_SEFFUNIV            BITMAP  DISCARDABLE     "res\\effUniV.bmp"
+IDB_EFFDEFRETTER        BITMAP  DISCARDABLE     "res\\Defretter.bmp"
+IDB_SEFFDEFRETTER       BITMAP  DISCARDABLE     "res\\EffDefretter.bmp"
+IDB_BUTTONSAVE          BITMAP  DISCARDABLE     "res\\ButtonSave.bmp"
+IDB_BUTTONRENAME        BITMAP  DISCARDABLE     "res\\ButtonRename.bmp"
+IDB_BUTTONCOPY          BITMAP  DISCARDABLE     "res\\ButtonCopy.bmp"
+IDB_BUTTONDELETE        BITMAP  DISCARDABLE     "res\\ButtonDelete.bmp"
+IDB_SITARP              BITMAP  DISCARDABLE     "res\\sitarP.bmp"
+IDB_WAVESQUARE          BITMAP  DISCARDABLE     "res\\waveSquare.bmp"
+IDB_WAVE                BITMAP  DISCARDABLE     "res\\wave.bmp"
+IDB_WAVESAW             BITMAP  DISCARDABLE     "res\\waveSaw.bmp"
+IDB_FILTERBASSS         BITMAP  DISCARDABLE     "res\\filterBassS.bmp"
+IDB_FILTERBASSB         BITMAP  DISCARDABLE     "res\\filterBassB.bmp"
+IDB_DOWN                BITMAP  DISCARDABLE     "res\\Down.bmp"
+IDB_UP                  BITMAP  DISCARDABLE     "res\\Up.bmp"
+IDB_VLIBB               BITMAP  DISCARDABLE     "res\\VlibB.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_NEW
+    BUTTON      ID_OPEN
+    BUTTON      ID_SAVE
+    BUTTON      ID_SAVE_ALL
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_SEND
+    BUTTON      ID_RECEIVE
+    BUTTON      ID_SYNCHRONIZE
+    SEPARATOR
+    BUTTON      ID_LIBTREE
+    BUTTON      ID_CHAIN
+    BUTTON      ID_PATCHEDIT
+    SEPARATOR
+    BUTTON      ID_OPENVGWINDOW
+    BUTTON      ID_TILEH
+    BUTTON      ID_TILEV
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_NEW
+        MENUITEM "&Open...",                    ID_OPEN
+        MENUITEM "&Close",                      ID_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Save",                       ID_SAVE
+        MENUITEM "Save &As...",                 ID_SAVEAS
+        MENUITEM "Save A&ll",                   ID_SAVE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Settings...",                 ID_APP_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Rename",                      ID_EDIT_RENAME
+    END
+    POPUP "&Midi"
+    BEGIN
+        MENUITEM "&Send...",                    ID_SEND
+        MENUITEM "&Receive",                    ID_RECEIVE
+        MENUITEM "S&ynchronize",                ID_SYNCHRONIZE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Zoom",                       ID_OPENVGWINDOW
+        MENUITEM SEPARATOR
+        MENUITEM "T&ree",                       ID_LIBTREE
+        MENUITEM "&Chain",                      ID_CHAIN
+        MENUITEM "&Patch",                      ID_PATCHEDIT
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Order...",                   ID_ORDER
+        MENUITEM "&About VEditor...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 267, 207
+STYLE DS_3DLOOK | WS_POPUP | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,107,188,50,14,WS_GROUP
+    CONTROL         240,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE | WS_DISABLED,0,0,267,186,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_DEVICE DIALOG DISCARDABLE  0, 0, 220, 191
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Device"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,108,173,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,173,50,14
+    LTEXT           "Input port :",IDC_STATIC,14,120,47,12
+    LTEXT           "Output port :",IDC_STATIC,14,140,41,12
+    LTEXT           "Device type :",IDC_STATIC,14,17,46,12
+    LTEXT           "Device name :",IDC_STATIC,14,36,46,12
+    COMBOBOX        IDC_DEVICETYPE,65,18,137,52,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_DEVICENAME,65,34,137,12,ES_AUTOHSCROLL
+    LTEXT           "Device ID :",IDC_STATIC,14,80,46,12
+    EDITTEXT        IDC_DEVICEID,65,78,40,12,ES_CENTER | ES_AUTOHSCROLL
+    GROUPBOX        "Midi",IDC_STATIC,6,64,207,100
+    COMBOBOX        IDC_MIDIINPUT,65,117,137,52,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MIDIOUTPUT,65,136,137,52,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Audition patch",IDC_STATIC,14,100,46,12
+    COMBOBOX        IDC_AUDITIONPATCH,65,97,40,52,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SENDPATCH DIALOG DISCARDABLE  0, 0, 250, 75
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Sending..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,99,58,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,44,236,10
+    LTEXT           "Patch 100 / 100  (60 %)  :   62 - 4   V-GUITAR",
+                    IDC_LABEL,92,18,151,25
+    CONTROL         343,IDC_STATIC,"Static",SS_BITMAP,10,5,72,38
+END
+
+IDD_INPUT DIALOG DISCARDABLE  0, 0, 186, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,7,10,172,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDCANCEL,91,33,50,14
+    DEFPUSHBUTTON   "OK",IDOK,35,33,50,14
+END
+
+IDD_SENDPATCHFORM DIALOG DISCARDABLE  0, 0, 211, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Send patches"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FROM_PATCH,72,17,125,264,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TO_PATCH,72,40,125,262,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_TO_PROGRAM,72,64,60,194,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,100,113,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,154,113,50,14
+    LTEXT           "Send from patch",IDC_STATIC,13,20,57,8
+    LTEXT           "To patch",IDC_STATIC,13,43,51,8
+    LTEXT           "Store to program",IDC_STATIC,13,66,55,8
+    LTEXT           "and up",IDC_STATIC,136,66,35,8
+    GROUPBOX        "",IDC_TITLE,7,7,197,97
+    CONTROL         "Send System",IDC_SYSTEM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,88,178,10
+END
+
+IDD_LIBPROP DIALOG DISCARDABLE  0, 0, 304, 126
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Library property"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,105,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,247,105,50,14
+    CONTROL         400,IDC_STATIC,"Static",SS_BITMAP,7,7,26,24
+    LTEXT           "Static",IDC_FILE,80,46,217,8
+    LTEXT           "First patch number :",IDC_STATIC,7,65,66,8
+    COMBOBOX        IDC_FIRSTPATCH,80,63,60,194,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LIBNAME,80,13,217,14,ES_AUTOHSCROLL
+    LTEXT           "Location :",IDC_STATIC,7,46,61,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Application MFC VEditor\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "VEditor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "VEditor.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Application VEditor\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_SENDPATCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_SENDPATCHFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_LIBPROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DEVICE DLGINIT
+BEGIN
+    IDC_DEVICETYPE, 0x403, 29, 0
+0x2d56, 0x7547, 0x7469, 0x7261, 0x5320, 0x7379, 0x6574, 0x206d, 0x6f52, 
+0x616c, 0x646e, 0x5620, 0x2d47, 0x3838, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0031, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0032, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0033, 
+    IDC_AUDITIONPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0034, 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3420, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3120, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3220, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3320, "\000" 
+    IDC_AUDITIONPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3420, "\000" 
+    0
+END
+
+IDD_SENDPATCHFORM DLGINIT
+BEGIN
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2031, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2031, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2031, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2031, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2032, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2032, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2032, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2032, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2033, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2033, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2033, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2033, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2034, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2034, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2034, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2034, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2035, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2035, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2035, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2035, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2036, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2036, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2036, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2036, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2037, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2037, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2037, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2037, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2038, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2038, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2038, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2038, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2039, 0x202d, 0x0031, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2039, 0x202d, 0x0032, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2039, 0x202d, 0x0033, 
+    IDC_TO_PROGRAM, 0x403, 6, 0
+0x2039, 0x202d, 0x0034, 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3031, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3031, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3031, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3031, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3131, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3131, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3131, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3131, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3231, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3231, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3231, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3231, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3331, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3331, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3331, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3331, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3431, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3431, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3431, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3431, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3531, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3531, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3531, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3531, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3631, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3631, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3631, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3631, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3731, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3731, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3731, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3731, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3831, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3831, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3831, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3831, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3931, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3931, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3931, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3931, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3032, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3032, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3032, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3032, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3132, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3132, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3132, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3132, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3232, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3232, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3232, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3232, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3332, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3332, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3332, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3332, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3432, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3432, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3432, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3432, 0x2d20, 0x3420, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3532, 0x2d20, 0x3120, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3532, 0x2d20, 0x3220, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3532, 0x2d20, 0x3320, "\000" 
+    IDC_TO_PROGRAM, 0x403, 7, 0
+0x3532, 0x2d20, 0x3420, "\000" 
+    0
+END
+
+IDD_LIBPROP DLGINIT
+BEGIN
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2031, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2032, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2033, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2034, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2035, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2036, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2037, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2038, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0031, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0032, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0033, 
+    IDC_FIRSTPATCH, 0x403, 6, 0
+0x2039, 0x202d, 0x0034, 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3031, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3131, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3231, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3331, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3431, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3531, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3631, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3731, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3831, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3931, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3032, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3132, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3232, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3332, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3432, 0x2d20, 0x3420, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3120, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3220, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3320, "\000" 
+    IDC_FIRSTPATCH, 0x403, 7, 0
+0x3532, 0x2d20, 0x3420, "\000" 
+    0
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\VEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

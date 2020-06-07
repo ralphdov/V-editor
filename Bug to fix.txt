@@ -1,0 +1,10 @@
+* (Ne se produit plus) Probleme quand Librairie ne contien qu'un patch
+* Plantage quand on est en cours de modif d'un nom est que l'on switch sur une autre appli
+* Compléter le controle pickup (gestion de la souris pour modifier l'angle)
+* Voir comment agrandir les libellé ("TRHESHOLD")
+* Etudier une facon d'appeler automatiquement la fonction de controle lors des modif de valeur
+
+* Améliorer l'affichage de la chaine d'instrument pour éviter au maximum les clignotement
+* Trouver les icones manquantes (instrument synthe)
+* Corriger le fond pour les micros (speaker)
+* Pb quand reception d'un message midi et que l'on est dans une liste de selection

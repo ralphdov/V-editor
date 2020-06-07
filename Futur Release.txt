@@ -1,0 +1,10 @@
+VEditor Futur Release
+---------------------
+
+Undo / Redo
+Enter Values with keyboard
+Patchset mode (overwrite using paste)
+Batch operation
+Search option
+Visual display of effect
+Help
